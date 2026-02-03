@@ -1,0 +1,14 @@
+{
+  "name": "euro-rails-skill",
+  "version": "1.0.0",
+  "description": "A skill to monitor train prices from Cologne to EuroRails destinations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "author": "OpenClaw",
+  "license": "MIT"
+}
