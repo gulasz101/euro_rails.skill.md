@@ -2,7 +2,7 @@
 
 const { scrapeEuroRails } = require('./scraper');
 const { formatPriceAlert, formatRouteList, formatPriceCheck } = require('./message-formatter');
-const cron = require('node-cron');
+const { cron } = require('openclaw');
 
 // Mock database for monitored routes
 const monitoredRoutes = [];
