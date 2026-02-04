@@ -1,3 +1,14 @@
+---
+name: euro-rails
+description: Monitor train ticket prices from Cologne (Köln) to all EuroRails destinations. Track price drops and receive alerts for one-way or round-trip journeys.
+user-invocable: true
+metadata:
+  openclaw:
+    requires:
+      bins: ["node"]
+    emoji: "🚆"
+---
+
 # EuroRails Price Tracker Skill
 
 ## Overview
